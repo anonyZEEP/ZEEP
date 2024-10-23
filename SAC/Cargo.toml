@@ -1,0 +1,19 @@
+[package]
+authors = ["Jack Grigg <str4d@i2pmail.org>"]
+description = "BLS signatures"
+documentation = "https://github.com/str4d/bls"
+homepage = "https://github.com/str4d/bls"
+license = "MIT/Apache-2.0"
+name = "bls"
+repository = "https://github.com/str4d/bls"
+version = "0.0.1"
+
+[dependencies]
+crypto-mac = { version = "0.11.0" }
+rand = "0.4"
+blake2 = "0.10.6"
+pairing = "0.14.0"
+bellman = "0.14.0"
+byteorder = "1.1.0"
+bit-vec = "0.6.3"
+sha2 = "0.10.8"
