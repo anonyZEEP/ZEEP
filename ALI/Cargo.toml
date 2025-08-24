@@ -1,0 +1,8 @@
+[package]
+name = "ALI"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pairing = "0.14.0"
+sha2 = "0.9"
